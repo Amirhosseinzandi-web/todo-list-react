@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Amirhosseinzandi-web/todo-list-react.git/static/css/main.ccfc4e41.css",
+    "main.js": "/Amirhosseinzandi-web/todo-list-react.git/static/js/main.2486ee21.js",
+    "index.html": "/Amirhosseinzandi-web/todo-list-react.git/index.html",
+    "main.ccfc4e41.css.map": "/Amirhosseinzandi-web/todo-list-react.git/static/css/main.ccfc4e41.css.map",
+    "main.2486ee21.js.map": "/Amirhosseinzandi-web/todo-list-react.git/static/js/main.2486ee21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccfc4e41.css",
+    "static/js/main.2486ee21.js"
+  ]
+}

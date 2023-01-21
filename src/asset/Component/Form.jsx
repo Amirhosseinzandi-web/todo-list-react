@@ -12,9 +12,9 @@ export default function Form({ inputVal, setInputVal, dataStore, setDataStore, d
         if(inputVal===""){
             alert("please fill the form")
         }else{
-            setDataStore([
-                ...dataStore, { id: Date.now(), text: inputVal, completed: false }
-            ])
+            setDataStore(prev=> {
+               return [...prev, { id: Date.now(), text: inputVal, completed: false }]
+            })
         }
 
     }

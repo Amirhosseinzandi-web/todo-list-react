@@ -13,7 +13,7 @@ export default function Form({ inputVal, setInputVal, dataStore, setDataStore, d
             alert("please fill the form")
         }else{
             setDataStore(prev=> {
-                return [...prev, { id: Date.now(), text: inputVal, completed: false }]
+            return [...prev, { id: Date.now(), text: inputVal, completed: false }]
             })
         }
 
